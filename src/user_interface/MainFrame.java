@@ -95,7 +95,7 @@ public final class MainFrame extends javax.swing.JFrame {
         setCompanyName(new ConfigDAO().read().getCompanyName());
         
         this.selectedOptionTextField.setText("Orçamentos");
-        this.historicoTextLabel.setText("Gerar HTML");
+        this.historicoTextLabel.setText("Imprimir");
         
         this.tableView.refreshViewOrcamentos(null, table);       
     }
@@ -108,7 +108,7 @@ public final class MainFrame extends javax.swing.JFrame {
         } else {
             this.removerPanel.setVisible(true);
             this.removerTextLabel.setVisible(true);
-            this.historicoTextLabel.setText("Gerar HTML");
+            this.historicoTextLabel.setText("Imprimir");
         }
         
         if (this.userAdmin && this.selectedOptionTextField.getText().equals("Usuários")) {
