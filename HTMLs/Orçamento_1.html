@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Orçamento_1</title>
+    <style>
+      img {
+        width: 640px;
+        height: 120px;
+        object-fit: contain;
+      }
+
+      #border {
+        border: 2px solid grey;
+        padding: 10px 10px 10px 10px;
+        border-radius: 25px 25px;
+      }
+
+      #bordersquare {
+        border: 1px solid grey;
+      }
+
+      tab1 { padding-left: 1em; }
+      tab2 { padding-left: 2em; }
+      tab3 { padding-left: 3em; }
+      tab30 { padding-left: 30em; }
+
+      pre {
+        margin:0;
+        padding:0;
+      }
+
+      body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+      }
+
+      div.primeiro {
+        padding: 50px 0px 10px 0px;
+        text-indent: 15px each-line;
+        text-align: justify;
+        font-size: 14px;
+      }
+
+      div.insidesquare {
+        padding: 1px 1px 1px 1px;
+        text-indent: 5px;
+        text-align: justify;
+        font-size: 12px;
+      }
+
+      div.pequeno {
+        padding: 0px 0px 1px 0px;
+        text-indent: 15px each-line;
+        text-align: justify;
+        font-size: 12px;
+      }
+
+      div.medio {
+        padding: 0px 0px 17px 0px;
+        text-indent: 15px each-line;
+        text-align: justify;
+        font-size: 14px;
+      }
+
+      div.title {
+        padding: 0px 0px 9px 0px;
+        text-indent: 5px;
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      div.separarBorda {
+        padding: 10px 0px 10px 0px;
+        text-align: justify;
+      }
+
+      div.titlePS {
+        padding: 1px 1px 1px 1px;
+        text-indent: 5px;
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      div.pagamento {
+        padding: 8px;
+        text-indent: 5px;
+        text-align: right;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body onload="window.print()">
+    <div>
+      <center><img src="C:\Users\gusta\Documents\NetBeansProjects\Oficina_SQLite\LOGO\logo.png"></center>
+    </div>
+
+    <div class="primeiro">
+      <strong>Endereço:</strong><tab1>Não definido.</tab1><br />
+      <strong>Telefone(s):</strong>&nbspNão definido.&nbsp&nbsp&nbsp&nbsp<strong>Email:</strong>&nbspNão definido.
+    </div>
+
+    <div class="medio" id="border">
+      <strong>Número do Orçamento:</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1<br />
+      <strong>Data/Hora(Abertura):</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<tab1>30/08/20 - 09:17:52</tab1><br />
+      <strong>Vendedor(es) Responsável(eis):</strong>&nbsp&nbsp&nbsp1 - teste<br />
+    </div>
+
+    <div class="separarBorda"></div>
+
+    <div class="medio" id="border">
+      <strong>Cliente:&nbsp</strong><tab1>1 - teste</tab1><br />
+      <strong>Telefone:&nbsp&nbsp&nbsp</strong>teste&nbsp<tab1><strong>Email: </strong></tab1>&nbspteste<br />
+      <strong>Endereço: </strong>&nbspteste
+    </div>
+
+    <div class="separarBorda"></div>
+
+    <div class="medio" id="border">
+      <strong>Placa:</strong><tab1>teste</tab1><br />
+      <strong>Veículo:</strong>&nbspteste<br />
+      <strong>KM:&nbsp&nbsp</strong>&nbsp<tab1>teste</tab1>&nbsp<tab1><strong>Combustível:</strong></tab1>&nbspteste&nbsp<tab1><strong>Marcador:</strong></tab1>&nbspteste&nbsp<tab1><strong>Cor:</strong></tab1>&nbspteste
+    </div>
+
+    <div class="separarBorda"></div>
+
+    <div class="title">&nbsp<strong>Defeitos Apontados</strong></div>
+    <div class="medio">teste</div>
+
+    <div class="title">&nbsp<strong>Observações</strong></div>
+    <div class="medio">teste</div>
+
+    <div class="titlePS" id="bordersquare"><em>Produtos</em></div>
+    <div class="insidesquare" id="bordersquare">
+      <strong>Código <tab3>Descrição</tab3>&nbsp<tab30>Quantidade</tab30><tab2>Unidade</tab2><tab3>Total</tab3></strong>
+    </div>
+
+    <div class="pequeno">
+      <pre>&nbsp1       teste                                                              1         R$ 1,00         R$ 1,00
+ 2       teste                                                              999  R$ 999.999,99R$ 998.999.990,01
+ 2       teste                                                              999  R$ 999.999,99R$ 998.999.990,01</pre>
+    </div>
+
+    <div class="pagamento">
+      <strong>Valor total dos produtos: R$ 1.997.999.981,02</strong>
+    </div>
+
+    <div class="titlePS" id="bordersquare"><em>Serviços</em></div>
+    <div class="insidesquare" id="bordersquare">      <strong>Código <tab3>Descrição</tab3>&nbsp<tab30>Quantidade</tab30><tab2>Unidade</tab2><tab3>Total</tab3></strong>
+    </div>
+
+    <div class="pequeno">
+      <pre>&nbsp1       teste                                                              1         R$ 1,00         R$ 1,00
+ 3       teste                                                              999  R$ 999.999,99R$ 998.999.990,01
+ 3       teste                                                              999  R$ 999.999,99R$ 998.999.990,01</pre>
+    </div>
+
+    <div class="pagamento">
+      <strong>Valor total dos servicos: R$ 1.997.999.981,02</strong>
+    </div>
+
+    <div class="pagamento">
+      <strong>Forma de pagamento: teste</strong><br />
+      <strong>Valor total do orçamento: R$ 3.995.999.962,04</strong>
+    </div>
+
+    <div class="separarBorda"></div>
+
+    <div class="pagamento">
+      Assinatura do Cliente: __________________________
+    </div>
+  </body>
+</html>
