@@ -34,7 +34,7 @@
 
 ## Autores
 
-* **Gustavo Henrique D. Ventura** - *Base do programa implementado* - [GustavoHDV](https://github.com/gustavo-hdv)
+* **Gustavo Henrique D. Ventura** - *Base do programa implementado*
 
 Lista de [contribuidores](https://github.com/gustavo-hdv/Workshop/contributors) que participaram deste projeto.
 <a href="https://github.com/gustavo-hdv" target="_blank">**GustavoHDV**</a> 
