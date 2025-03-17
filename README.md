@@ -42,12 +42,6 @@ Lista de [contribuidores](https://github.com/gustavo-hdv/Workshop/contributors) 
 | [![GustavoHDV](https://avatars2.githubusercontent.com/u/47394239?s=300&u=c7b4429254f9ab82d20fedb17186cd07a8cb4487&v=4)](https://github.com/gustavo-hdv)|
 | <a href="https://github.com/gustavo-hdv" target="_blank">`github.com/gustavo-hdv`</a> |
 
-## Suporte
-
-* Contate-me:
-  - Discord: TwoSouls#3428
-  - Email: gustavohenrique0008@gmail.com
-
 ## Licença
 
 * Este projeto está sobre a Licensa GNU General Public License v3.0 - veja o [LICENSE](LICENSE) arquivo para mais detalhes.
